@@ -1,38 +1,100 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    width: 100vw;
+    height: 100vh;
+    
   }
+  
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.TopBar
+{
+    background-color: white;
+    width: 100%;
+    height: 9%;
+    display: flex;
+    
+    
 }
 
-.App-link {
-  color: #61dafb;
+.Left_sidebar
+{
+    height: 100vh;
+    width: 5%;
+    background-color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sidebarList{
+    height: auto;
+    width: 100%;
+    padding: 0;
+    background-color:white;
+
+}
+
+.Left_sidebar #logo{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.sidebarList .row {
+    background-color: white;
+    width: 80%;
+    height: 50px;
+    list-style-type: none;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 5%;
+
+}
+
+.sidebarList .row:hover{
+    cursor: pointer;
+    border: 5px solid rgb(168, 19, 168);
+    border-radius: 9px;
+    
+    
+}
+
+
+.nav_bar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.dashboard{
+    width: 100%;
+}
+
+.sidebarList .row_right {
+    background-color: white;
+    width: 80%;
+    height: 50px;
+    list-style-type: none;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 5%;
+
+}
+
+.sidebarList .row_right:hover{
+    cursor: pointer;
 }
