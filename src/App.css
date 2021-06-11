@@ -35,6 +35,11 @@ body{
 
 }
 
+#save
+{
+    margin-right: auto;
+}
+
 .Left_sidebar #logo{
     height: 40px;
     display: flex;

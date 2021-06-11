@@ -18,42 +18,42 @@ const Dashboard= () => {
                     
                     <ul className="dashlist">
                          
-                       <li  className="row" id="head" >
+                       <li  className="row " id="head" >
                         
                         <div id="title">Event settings</div>
                        </li>
 
                                              
-                        <li  className="row" >
+                        <li  className="row op" >
                         
                          <div id="title">General</div>
                         </li>
                         
-                        <li  className="row" >
+                        <li  className="row op" >
                        
                          <div id="title">Privacy</div>
                         </li>
                         
-                        <li  className="row" >
+                        <li  className="row op" >
                        
                          <div id="title">Features</div>
                         </li>
                         
-                        <li  className="row" >
+                        <li  className="row op" >
                          <div id="title">Customisation</div>
                         </li>
 
-                        <li  className="row" >
+                        <li  className="row op" >
                        
                        <div id="title">Integration</div>
                       </li>
                       
-                      <li  className="row" >
+                      <li  className="row op" >
                      
                        <div id="title">Session</div>
                       </li>
                       
-                      <li  className="row" >
+                      <li  className="row op" >
                        <div id="title">My Plans</div>
                       </li>
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css'
-import {Left_sidebardata} from './Left_sidebardata'
+
 import Logo from '@material-ui/icons/AcUnit';
 import EventsIcon from '@material-ui/icons/Assessment';
 import TeamsIcon from '@material-ui/icons/Group';

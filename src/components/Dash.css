@@ -1,3 +1,5 @@
+
+
 .dash
 {
     margin: 2%;
@@ -22,8 +24,6 @@
 
 .Details{
     height: 600px;
-    width: 90%;
-    
     align-items: center;
     margin: 2%;
 }
@@ -39,7 +39,7 @@
 .dashlist .row {
     background-color: white;
     width: 100%;
-    height: 50px;
+    height: auto;
     list-style-type: none;
     margin: 0%;
     display: flex;
@@ -47,9 +47,23 @@
     
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-left: 20%;
+    padding-left: 20%;
     font-size: 20px;
 
+}
+
+.dashlist .op:hover{
+    cursor: pointer;
+    background-color: rgb(255, 200, 255);
+    color: rgb(182, 92, 182);
+    
+}
+
+.Detailing
+{
+    
+    align-items: center;
+    margin: 2%;
 }
 
 #head
@@ -59,15 +73,35 @@
     margin-bottom: 5px;
 }
 
+.Details-head{
+
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(105, 103, 103);
+}
+
+.Details-head .head{
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: purple;
+
+}
+
+
+
 .Details .row
 {
     background-color: white;
     
-    height: 50px;
+    height: auto;
     list-style-type: none;
     margin: 0%;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    
+    font-weight: 500;
     
     font-size: 20px;
 } 

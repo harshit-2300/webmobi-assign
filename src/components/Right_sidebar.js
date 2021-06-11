@@ -2,7 +2,7 @@ import React from 'react'
 import '../App.css'
 import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import NotificationsIcon from '@material-ui/icons/Notifications';
-import ForumIcon from '@material-ui/icons/Forum';import AnalyticsIcon from '@material-ui/icons/Timeline';
+import ForumIcon from '@material-ui/icons/Forum';
 import SettingsIcon from '@material-ui/icons/Settings';
 const Right_sidebar= () => {
     return (
